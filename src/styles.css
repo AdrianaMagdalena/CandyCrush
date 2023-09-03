@@ -3,26 +3,52 @@ body {
   height: 100%;
   width: 100%;
   font-family: "Courier New", Courier, monospace;
-  color: lavender;
+  color: white;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 h1,
-h2,
-p {
+h2 {
   width: 600px;
   max-width: 90vw;
   margin: 2rem auto;
 }
 
+h1 {
+  font-size: 3rem;
+  text-shadow: 0 5px 10px lightpink;
+}
+
+.score-board {
+  width: 250px;
+  background-color: lightpink;
+  padding: 1rem;
+  margin: 2rem auto;
+  border-radius: 10px;
+  box-shadow: inset -1px 2px 3px 3px rgba(0, 0, 0, 0.4);
+}
+
 p {
+  color: rgba(0, 0, 0, 0.4);
   font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0.5rem;
+}
+
+.score {
+  font-size: 2rem;
 }
 
 .grid {
   height: 560px;
   width: 560px;
-  background-color: lavender;
+  border: 5px solid lightpink;
+  border-radius: 20px;
+  box-shadow: inset -1px 2px 3px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.35);
   padding: 20px;
   margin: 0 auto;
   display: flex;
