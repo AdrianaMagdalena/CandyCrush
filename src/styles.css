@@ -1,0 +1,71 @@
+body {
+  background-color: palevioletred;
+  height: 100%;
+  width: 100%;
+  font-family: "Courier New", Courier, monospace;
+  color: lavender;
+  text-align: center;
+}
+
+h1,
+h2,
+p {
+  width: 600px;
+  max-width: 90vw;
+  margin: 2rem auto;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.grid {
+  height: 560px;
+  width: 560px;
+  background-color: lavender;
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid div {
+  height: 70px;
+  width: 70px;
+}
+
+[style="background-color: yellow;"] {
+  border-radius: 10%;
+  box-sizing: border-box;
+  border: 5px solid rgb(61, 61, 0);
+}
+
+[style="background-color: red;"] {
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 5px solid rgb(49, 0, 0);
+}
+
+[style="background-color: green;"] {
+  border-radius: 25px;
+  box-sizing: border-box;
+  border: 5px solid rgb(0, 26, 0);
+}
+
+[style="background-color: blue;"] {
+  border-radius: 40% 60%;
+  box-sizing: border-box;
+  border: 5px solid rgb(0, 0, 65);
+}
+
+[style="background-color: orange;"] {
+  border-radius: 10px 40px 10px 40px;
+  box-sizing: border-box;
+  border: 5px solid rgb(55, 36, 0);
+}
+
+[style="background-color: purple;"] {
+  border-radius: 60px 20px 60px 20px;
+  box-sizing: border-box;
+  border: 5px solid rgb(24, 0, 24);
+}
